@@ -4,7 +4,10 @@ This react app is an editable to-do list. Users can create a list, remove items,
 
 Ideas for future improvement:
 1. Due dates for tasks with a calendar view
-2. 
+2. Send task invites to others
+3. Attach files to tasks
+
+
 
 
 
