@@ -3,7 +3,7 @@ import { Link, useMatch, useResolvedPath} from "react-router-dom"
 export default function Navbar() {
     return (
         <nav className="nav">
-        <Link to="/" className="site-title">TO DO</Link>
+        <Link to="/" className="site-title">HOME</Link>
         <ul>
             <CustomLink to="todoWrapper">To Do List</CustomLink>
             <CustomLink to="contact">Contact</CustomLink>
