@@ -1,6 +1,10 @@
 Nina Bosco
 
-This project is an editable to-do list. Users can create a list, remove items, strikethrough items, and update items. There is a contact page for users who wish to leave a message.
+This react app is an editable to-do list. Users can create a list, remove items, strikethrough items, and update items. There is a contact page for users who wish to send a message to my email through web3forms. 
+
+Ideas for future improvement:
+1. Due dates for tasks with a calendar view
+2. 
 
 
 
