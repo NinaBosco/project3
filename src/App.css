@@ -2,19 +2,23 @@ body{
   background-color: #f7f8f7;
   color: rgb(20, 20, 20);
   overflow: hidden;
+  background: #199133;
 }
 h1{
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .TodoWrapper{
-  background-color: #04c52e;
-  padding: 2%;
-  width: fit-content;
+  background-color: #fff;
+  color: #333;
+  padding: 25px 25px 30px;
+  width: 100%;
+  max-width: 600px;
   margin-left: auto;
   margin-right:auto;
   margin-top: 3%;
   max-height: 80vh;
   overflow-y: auto;
+  border-radius: 8px;
   box-shadow: 0px 5px 7px rgb(27, 27, 27);
 }
 
@@ -22,21 +26,17 @@ h1{
 display: inline-block;
 align-items: center;
 justify-content: center;
-border: 2px solid rgb(27, 25, 25);
+border: 2px solid #333;
 padding: .25rem;
 width: 15rem;
 margin: 2px;
 }
-.todo-btn{
-  width: 7rem;
-  padding: .25rem;
-  border:2px solid #0c0b0b;
-}
+
 .Todo{
   display: flex;
   justify-content: space-between;
-  background: #199133;
-  color: #fff;
+  background: #d7f0dd;
+  color: #333;
   padding: 25px;
   padding-bottom: 10px;
   padding-top: 10px;
