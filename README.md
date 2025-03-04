@@ -1,3 +1,26 @@
+Nina Bosco
+
+This project is an editable to-do list. Users can create a list, remove items, strikethrough items, and update items. There is a contact page for users who wish to leave a message.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
