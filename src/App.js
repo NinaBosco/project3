@@ -1,11 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./pages/Navbar";
-import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import { TodoWrapper } from "./pages/TodoWrapper";
+import TodoWrapper  from "./pages/TodoWrapper";
 import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
 import './App.css';
 
 function App() {
@@ -14,12 +12,10 @@ function App() {
     <Navbar/>
     <div className="container">
     <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home/>} />
-          <Route path="todoWrapper" element={<TodoWrapper/>}/>
-          <Route path="contact" element={<Contact/>} />
-          <Route path="*" element={<NoPage/>} />
-        </Route>
+          <Route path="/" element={<Home />}/>
+          <Route path="todoWrapper" element={<TodoWrapper />}/>
+          <Route path="contact" element={<Contact />} />
+       
       </Routes>
     </div>
     
@@ -27,7 +23,3 @@ function App() {
   );
 }
 export default App;
-
-/*<BrowserRouter>
-      
-    </BrowserRouter>*/

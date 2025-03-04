@@ -5,8 +5,8 @@ export default function Navbar() {
         <nav className="nav">
         <Link to="/" className="site-title">TO DO</Link>
         <ul>
-            <CustomLink to="/todoWrapper">To Do List</CustomLink>
-            <CustomLink to="/contact">Contact</CustomLink>
+            <CustomLink to="todoWrapper">To Do List</CustomLink>
+            <CustomLink to="contact">Contact</CustomLink>
            
         </ul>
     </nav>
